@@ -1,0 +1,23 @@
+{
+  "name": "deep-equal-x",
+  "version": "1.0.0",
+  "description": "Zero-dependency deep equality comparison with circular reference detection, special type support, and flexible matching modes",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.js"
+    }
+  },
+  "bin": {
+    "dequal": "./cli/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "demo": "node cli/cli.js demo"
+  },
+  "keywords": ["deep-equal", "equality", "compare", "deep-compare", "circular", "zero-dependency"],
+  "license": "MIT",
+  "author": "sulthonzh"
+}
