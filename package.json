@@ -18,9 +18,34 @@
     "test": "node --test dist/test/*.test.js",
     "prepublishOnly": "npm run build && npm test"
   },
-  "keywords": ["deep-equal", "shallow-equal", "deep-clone", "structural-equality", "zero-dependency"],
+  "keywords": [
+    "deep-equal",
+    "shallow-equal",
+    "deep-clone",
+    "structural-equality",
+    "zero-dependency"
+  ],
   "license": "MIT",
   "author": "sulthonzh",
-  "repository": { "type": "git", "url": "https://github.com/sulthonzh/deep-equal-x" },
-  "files": ["dist", "README.md", "LICENSE"]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/deep-equal-x"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/index.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/sulthonzh/deep-equal-x",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/deep-equal-x/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0"
+  }
 }
